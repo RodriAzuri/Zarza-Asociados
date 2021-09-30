@@ -20,7 +20,7 @@ body {
       .headerImg nav div .navbar-brand {
         font-size: 40px;
         font-weight: 700;
-        color: #853c3c;
+        color: #db9b9b;
         font-family: 'Gemunu Libre', sans-serif; }
       .headerImg nav div .nav-link {
         font-size: 15px;
@@ -291,17 +291,23 @@ footer {
 
 @media only screen and (min-width: 992px) {
   .headerImg nav div .navbar-brand {
-    font-size: 50px; }
+    font-size: 50px;
+    margin-left: 50px; }
   .headerImg nav div .nav-link {
     font-size: 25px; }
-  .headerImg nav div ul li {
-    display: flex;
-    flex-direction: row; }
-    .headerImg nav div ul li .animacion {
+  .headerImg nav div ul {
+    margin-right: 120px; }
+    .headerImg nav div ul li {
       display: flex;
-      text-decoration: none;
-      color: #fff;
-      flex-direction: row !important; } }
+      flex-direction: row; }
+      .headerImg nav div ul li .animacion {
+        display: flex;
+        text-decoration: none;
+        color: #fff; } }
+
+ul li:hover ul {
+  display: flex;
+  padding-top: 45px; }
 
 @media only screen and (min-width: 1024px) {
   .headerImg {

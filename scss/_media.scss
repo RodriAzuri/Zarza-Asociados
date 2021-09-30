@@ -142,11 +142,13 @@
            div {
                .navbar-brand {
                    font-size: 50px;
+                   margin-left: 50px;
                }
                .nav-link {
                    font-size: 25px;
                }
                ul {
+                   margin-right: 120px;
                    li {
                        display: flex;
                        flex-direction: row;
@@ -154,16 +156,19 @@
                            display: flex;
                            text-decoration: none;
                            color: #fff;
-                           flex-direction: row !important;
-
-                       }
-                   }
-               }
-           }
-       }
-   }
-
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+ul li:hover ul {
+    display: flex;
+    padding-top: 45px;
+}
+
 
 @media only screen and (min-width: 1024px) {
     //Header//

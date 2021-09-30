@@ -1,0 +1,206 @@
+main {
+    margin: $tamaño*1.5;
+    section {
+        text-align: center;
+    }
+    .whatsappLogo {
+        position: fixed;
+        bottom: $tamaño/2;
+        right: $tamaño;
+        a {
+            img {
+                height: $tamaño*4;
+                width: $tamaño*4;
+            }
+        }
+    }
+    
+    
+
+    //Index//
+    #responsive {
+        .marginImg {
+            border: $border;
+            padding: $tamaño*1.5;
+            .balanza {
+                width: $tamaño*15;
+                height: $tamaño*15;
+            }
+            .balanza:hover {
+                transform: scale(1.5);
+            }
+        }
+        .marginVideo {
+            margin-top: $tamaño*1.5;
+            border: $border;
+            padding: $tamaño*1.5;
+            video {
+                height: 170px;
+            }
+          }
+    }
+    
+    .somosSubtitulo {
+        font-size: $tamaño*3;
+        text-align: center;
+    }
+
+    //Servicios//
+    .grid {
+        display: grid;
+        grid-template-rows: none;
+        grid-template-columns: none;
+        grid-template-areas: 
+            "familiaFondo"
+            "laboralFondo"
+            "civilFondo"
+            "accidentesTransitoFondo"
+            "arrendamientoFondo"
+            "ambientalFondo"
+        
+        ;
+        grid-gap: $tamaño;
+        text-align: center;
+
+        #familiaFondo {
+            grid-area: familiaFondo;
+            border: $border;
+            padding: $tamaño;
+            background: $color;
+            font-weight: 500;
+        }
+        
+        #laboralFondo {
+            grid-area: laboralFondo;
+            border: $border;
+            padding: $tamaño;
+            background: $color;
+            font-weight: 500;
+        }
+        
+        #civilFondo {
+            grid-area: civilFondo;
+            border: $border;
+            padding: $tamaño;
+            background: $color;
+            font-weight: 500;
+        }
+        
+        #accidentesTransitoFondo {
+            grid-area: accidentesTransitoFondo;
+            border: $border;
+            padding: $tamaño;
+            background: $color;
+            font-weight: 500;
+            justify-content: center;
+        }
+        
+        #ambientalFondo {
+            grid-area: ambientalFondo;
+            border: $border;
+            padding: $tamaño;
+            background: $color;
+            font-weight: 500;
+        }
+        
+        #arrendamientoFondo {
+            grid-area: arrendamientoFondo;
+            border: $border;
+            padding: $tamaño;
+            background: $color;
+            font-weight: 500;
+        }
+    }
+
+    //Nosotros//
+    .nosotrosFormat {
+        font-size: $tamaño*2;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #ce8f478a;
+    }
+    .nosotrosSegundo {
+        font-size: $tamaño*2;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #2f31be;
+    }
+
+    //Noticias//
+    .noticias {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        #taman {
+            width: 500px;
+            height: 600px;
+            padding: $tamaño*1.5;
+            border: dashed 1px black;
+            margin-top: $tamaño*1.5;
+            .text-informes {
+                font-size: $tamaño*3;
+                font-weight: 500;
+            }
+            .nota {
+                padding-top: 15px;
+            }
+            .desempleo {
+                font-size: 18px;
+            }
+            .bcu {
+                display: flex;
+                justify-content: right;
+            }
+        }
+    }
+}
+
+
+//Contacto//
+#fondo-contact {
+    background-color: #ddcba9;
+    margin: 0;  
+    .breadcrumb {
+        padding-left: $tamaño*2;
+        padding-top: $tamaño;
+    }
+    .formContact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+        .ko {
+            border: solid white 3px;
+            padding: 15px;
+            #tam {
+                height: 300px;
+            }
+            .button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    .map {
+        padding-top: 50px;
+    }
+    #contact  {
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+        h6 {
+            list-style: none;
+            text-align: center;
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    
+}

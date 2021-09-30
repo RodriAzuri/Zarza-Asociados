@@ -1,0 +1,86 @@
+.headerImg {
+    background-image: url(../contenido/img/martillo.jpg);
+    background-color: hsl(178, 12%, 38%);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    nav {
+        margin: 0px;
+        padding: 0px;
+        background-color: transparent !important;
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            .navbar-brand {
+                font-size: 40px;
+                font-weight: 700;
+                color: #853c3c;
+                font-family: 'Gemunu Libre', sans-serif;
+                
+                
+            }
+            .nav-link {
+                font-size: 15px;
+                font-family: 'Gemunu Libre', sans-serif;
+                color: white !important;
+              
+                
+
+                
+                
+            }
+            ul {
+                li {
+                    .animacion {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    #titulo {
+        align-items: center;
+        justify-content: center;
+        #tituloPrincipal {
+            text-align: center;
+            font-size: 50px;
+            color: #ffffff;
+            font-family: 'Allison', cursive;
+            margin: 0;
+            padding-top: 80px;
+            font-weight: 100;
+        }
+        #tituloSecundario {
+            text-align: center;
+            font-size: 40px;
+            color: #ffffff;
+            font-family: 'Allison', cursive;
+            margin: 0;
+            font-weight: 100;
+        }
+    }
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+
+
+
+ul {
+    margin: 0;
+    ul {
+        position: absolute;
+        display: none;
+        padding-top: 20px;
+        padding-left: 50px;
+        li {
+            display: flex;
+            padding-top: $tamaño/2;
+            padding-left: $tamaño*2;
+        }
+    }
+}

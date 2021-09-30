@@ -1,0 +1,25 @@
+footer {
+    border-top: solid $tamaño/5;
+    background-image: url(../contenido/img/pexels-pavel-danilyuk-8814959.jpg);
+    background-size: cover;
+    background-position: center;
+    h4 {
+        font-size: $tamaño*2;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+    #loKi {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 50px;  
+        list-style: none;
+        img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

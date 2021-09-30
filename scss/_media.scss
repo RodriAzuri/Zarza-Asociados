@@ -1,0 +1,277 @@
+@media only screen and (min-width: 500px) {
+    //Header//
+    .headerImg {
+        #titulo {
+            #tituloPrincipal {
+                padding-top: 60px;
+                font-size: $tamaño*7;
+            }
+            #tituloSecundario {
+                font-size: $tamaño*6;
+            }
+        }
+    }
+
+    //Main//
+    //Contacto//
+    #fondo-contact {
+        .formContact {
+            .ko {
+                .mb-3 {
+                    width: $tamaño*40;
+                }
+            }
+        }
+    }
+    
+}  
+
+@media only screen and (min-width: 768px) {
+    //Header//
+    .headerImg {
+        #titulo {
+            #tituloPrincipal {
+                padding-top: 30px;
+                font-size: 80px;
+            }
+            #tituloSecundario {
+                font-size: 60px;
+            }
+        }
+        
+    }
+
+    //Main//
+    #principalHome {
+        #principal {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            #introduccion {
+                padding: 10px;    
+            }
+            .balanza {
+                width: 200px;
+                height: 200px;
+            }
+            .marginVideo video {
+                height: 200px;
+            }
+        }
+    }
+    
+    //Servicios//
+    main {
+        .grid {
+            display: grid;
+            grid-template-rows: 150px, 150px, 100px, ;
+            grid-template-columns: 300px, 300px;
+            grid-template-areas: 
+                "familiaFondo laboralFondo"
+                "civilFondo arrendamientoFondo"
+                "accidentesTransitoFondo ambientalFondo"
+            ;
+            grid-gap: 10px;
+            text-align: center;
+            justify-content: c;
+            
+            h3 {
+                font-size: 30px;
+            }
+        }
+    
+        .somosSubtitulo {
+            font-family: 'Cinzel', sans-serif;
+            font-weight: 800;
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+
+    //Nosotros//
+    main {
+        .flex {
+            .nosotrosFormat {
+                font-size: 30px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                color: #ce8f478a;
+                margin: 10px;
+                text-align: center;
+            }
+            .nosotrosSegundo {
+                font-size: 30px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                color: #2f31be;
+                text-align: center;
+                margin: 10px;
+            }
+        }
+    }
+
+    //Contacto//
+    #fondo-contact {
+        #contact {
+            #contactDos {
+                iframe {
+                    width: 450px;
+                    height: 350px;
+                }
+    
+            }
+            h6 {
+                font-size: 40px;
+                font-weight: 200;
+            }
+        }
+        
+    }   
+    
+    //Footer//
+    footer {
+        h4 {
+            font-size: 40px;
+        }
+    }
+}   
+
+@media only screen and (min-width: 992px) {
+   .headerImg {
+       nav {
+           div {
+               .navbar-brand {
+                   font-size: 50px;
+               }
+               .nav-link {
+                   font-size: 25px;
+               }
+               ul {
+                   li {
+                       display: flex;
+                       flex-direction: row;
+                       .animacion {
+                           display: flex;
+                           text-decoration: none;
+                           color: #fff;
+                           flex-direction: row !important;
+
+                       }
+                   }
+               }
+           }
+       }
+   }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    //Header//
+    .headerImg {
+        height: 400px;
+        #titulo {
+            #tituloPrincipal {
+                font-size: 120px;
+                padding-top: 60px;
+            }
+            #tituloSecundario {
+                font-size: 80px;
+            }
+        }
+    }
+
+    //Main//
+    #principalHome {
+        padding: 0px 150px;
+        #principal {
+            #introduccion {
+                font-size: 15px;
+            }
+        }
+        #responsive {
+            .marginImg {
+                p {
+                    padding: 18px;
+                }
+                .balanza {
+                    height: 300px;
+                    width: 300px;
+                }
+            }
+            .marginVideo {
+                p {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+
+    //Nosotros// 
+    main {
+        .flex {
+            display: flex;
+            flex-direction: row;  
+        }
+    }
+
+    //Contacto//
+    #fondo-contact {
+        #contact {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+@media only screen and (min-width: 1380px) {
+    //Header//
+    
+
+    //Main// 
+    #principalHome {
+        #principal{
+            #introduccion {
+                font-size: 20px;
+            }
+        }
+        #responsive {
+            .marginImg {
+                display: flex;
+                flex-direction: row;
+                font-size: 20px;
+                align-items: center;
+                justify-content: right;
+                .balanza {
+                    height: 500px;
+                    width: 400px;
+                }
+            }
+            .marginVideo {
+                display: flex;
+                flex-direction: row;
+                font-size: 22px;
+                align-items: center;
+                justify-content: center;
+            }
+        }    
+    }
+}
+
+@media only screen and (min-width: 1620px) {
+    //Main// 
+    #principalHome {
+        padding: 0px 300px;
+    }
+
+}
+
+    
+    
+    
+
+   
+
+   
+
+   

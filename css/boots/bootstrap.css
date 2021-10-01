@@ -4012,6 +4012,7 @@ textarea.form-control-lg {
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  
 }
 
 .navbar-collapse {
@@ -4028,6 +4029,7 @@ textarea.form-control-lg {
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
+  z-index: 1;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {

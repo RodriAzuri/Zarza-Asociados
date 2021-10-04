@@ -296,18 +296,18 @@ footer {
   .headerImg nav div .nav-link {
     font-size: 25px; }
   .headerImg nav div ul {
-    margin-right: 120px; }
-    .headerImg nav div ul li {
+    margin: 0;
+    padding: 0;
+    margin-right: 140px; }
+    .headerImg nav div ul ul li .animacion {
       display: flex;
-      flex-direction: row; }
-      .headerImg nav div ul li .animacion {
-        display: flex;
-        text-decoration: none;
-        color: #fff; } }
+      text-decoration: none;
+      color: #fff;
+      flex-direction: row; } }
 
 ul li:hover ul {
   display: flex;
-  padding-top: 45px; }
+  padding-top: 5px; }
 
 @media only screen and (min-width: 1024px) {
   .headerImg {

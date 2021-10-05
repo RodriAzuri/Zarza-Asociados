@@ -169,6 +169,7 @@
 
 ul li:hover ul {
     display: flex;
+    flex-direction: row;
     padding-top: 5px;
     
 }

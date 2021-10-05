@@ -244,7 +244,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start; }
-    #principalHome #principal #introduccion {
+    #principalHome #principal .introduccion {
       padding: 10px; }
     #principalHome #principal .balanza {
       width: 200px;
@@ -320,7 +320,7 @@ ul li:hover ul {
       font-size: 80px; }
   #principalHome {
     padding: 0px 150px; }
-    #principalHome #principal #introduccion {
+    #principalHome #principal .introduccion {
       font-size: 15px; }
     #principalHome #responsive .marginImg p {
       padding: 18px; }
@@ -338,7 +338,7 @@ ul li:hover ul {
     justify-content: space-evenly; } }
 
 @media only screen and (min-width: 1380px) {
-  #principalHome #principal #introduccion {
+  #principalHome #principal .introduccion {
     font-size: 20px; }
   #principalHome #responsive .marginImg {
     display: flex;

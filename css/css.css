@@ -262,7 +262,7 @@ footer {
     main .grid h3 {
       font-size: 30px; }
   main .somosSubtitulo {
-    font-family: 'Cinzel', sans-serif;
+    font-family: 'Gemunu Libre', sans-serif;
     font-weight: 800;
     text-align: center;
     font-size: 40px; }
@@ -302,8 +302,7 @@ footer {
     .headerImg nav div ul ul li .animacion {
       display: flex;
       text-decoration: none;
-      color: #fff;
-      flex-direction: row; } }
+      color: #fff; } }
 
 ul li:hover ul {
   display: flex;

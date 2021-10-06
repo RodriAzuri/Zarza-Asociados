@@ -1,4 +1,5 @@
 @media only screen and (min-width: 500px) {
+
     //Header//
     .headerImg {
         #titulo {
@@ -12,7 +13,7 @@
         }
     }
 
-    //Main//
+
     //Contacto//
     #fondo-contact {
         .formContact {
@@ -27,6 +28,7 @@
 }  
 
 @media only screen and (min-width: 768px) {
+
     //Header//
     .headerImg {
         #titulo {
@@ -41,7 +43,7 @@
         
     }
 
-    //Main//
+    //Index//
     #principalHome {
         #principal {
             display: flex;
@@ -137,6 +139,8 @@
 }   
 
 @media only screen and (min-width: 992px) {
+
+    //Header//
    .headerImg {
        nav {
            div {
@@ -177,6 +181,7 @@ ul li:hover ul {
 
 
 @media only screen and (min-width: 1024px) {
+
     //Header//
     .headerImg {
         height: 400px;
@@ -236,8 +241,6 @@ ul li:hover ul {
 }
 
 @media only screen and (min-width: 1380px) {
-    //Header//
-    
 
     //Main// 
     #principalHome {
@@ -270,6 +273,7 @@ ul li:hover ul {
 }
 
 @media only screen and (min-width: 1620px) {
+    
     //Main// 
     #principalHome {
         padding: 0px 300px;

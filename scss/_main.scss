@@ -18,26 +18,21 @@ main {
     
 
     //Index//
-    #responsive {
-        .marginImg {
-            border: $border;
-            padding: $tamaño*1.5;
-            .balanza {
-                width: $tamaño*15;
-                height: $tamaño*15;
-            }
-            .balanza:hover {
-                transform: scale(1.5);
-            }
+    #carousel-home {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            height: 300px;
+           
         }
-        .marginVideo {
-            margin-top: $tamaño*1.5;
-            border: $border;
-            padding: $tamaño*1.5;
-            video {
-                height: 170px;
-            }
-          }
+        
+        #carousel1 {
+            padding: 15px;
+        }
+        #carousel2 {
+            padding: 15px;
+        }
     }
     
     .somosSubtitulo {
@@ -183,6 +178,7 @@ main {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                
             }
         }
     }

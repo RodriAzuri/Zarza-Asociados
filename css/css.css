@@ -73,20 +73,15 @@ main {
     main .whatsappLogo a img {
       height: 40px;
       width: 40px; }
-  main #responsive .marginImg {
-    border: solid black 2px;
-    padding: 15px; }
-    main #responsive .marginImg .balanza {
-      width: 150px;
-      height: 150px; }
-    main #responsive .marginImg .balanza:hover {
-      transform: scale(1.5); }
-  main #responsive .marginVideo {
-    margin-top: 15px;
-    border: solid black 2px;
-    padding: 15px; }
-    main #responsive .marginVideo video {
-      height: 170px; }
+  main #carousel-home {
+    display: flex;
+    flex-direction: column; }
+    main #carousel-home img {
+      height: 300px; }
+    main #carousel-home #carousel1 {
+      padding: 15px; }
+    main #carousel-home #carousel2 {
+      padding: 15px; }
   main .somosSubtitulo {
     font-size: 30px;
     text-align: center; }
@@ -246,11 +241,6 @@ footer {
     justify-content: flex-start; }
     #principalHome #principal .introduccion {
       padding: 10px; }
-    #principalHome #principal .balanza {
-      width: 200px;
-      height: 200px; }
-    #principalHome #principal .marginVideo video {
-      height: 200px; }
   main .grid {
     display: grid;
     grid-template-rows: 150px, 150px, 100px;
@@ -300,7 +290,9 @@ footer {
     .headerImg nav div ul ul li .animacion {
       display: flex;
       text-decoration: none;
-      color: #fff; } }
+      color: #fff; }
+  main #carousel-home img {
+    height: 700px; } }
 
 ul li:hover ul {
   display: flex;
@@ -319,13 +311,6 @@ ul li:hover ul {
     padding: 0px 150px; }
     #principalHome #principal .introduccion {
       font-size: 15px; }
-    #principalHome #responsive .marginImg p {
-      padding: 18px; }
-    #principalHome #responsive .marginImg .balanza {
-      height: 300px;
-      width: 300px; }
-    #principalHome #responsive .marginVideo p {
-      padding: 15px; }
   main .flex {
     display: flex;
     flex-direction: row; }

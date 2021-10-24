@@ -52,13 +52,6 @@
             .introduccion {
                 padding: 10px;    
             }
-            .balanza {
-                width: 200px;
-                height: 200px;
-            }
-            .marginVideo video {
-                height: 200px;
-            }
         }
     }
     
@@ -168,6 +161,16 @@
             }
         }
     }
+
+    //Main//
+    main {
+        #carousel-home {
+            img {
+                height: 700px;
+            }
+        }
+    }
+    
 }
 
 ul li:hover ul {
@@ -176,6 +179,9 @@ ul li:hover ul {
     padding-top: 5px;
     
 }
+
+    
+
 
 
 @media only screen and (min-width: 1024px) {
@@ -200,22 +206,6 @@ ul li:hover ul {
         #principal {
             .introduccion {
                 font-size: 15px;
-            }
-        }
-        #responsive {
-            .marginImg {
-                p {
-                    padding: 18px;
-                }
-                .balanza {
-                    height: 300px;
-                    width: 300px;
-                }
-            }
-            .marginVideo {
-                p {
-                    padding: 15px;
-                }
             }
         }
     }

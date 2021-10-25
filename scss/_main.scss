@@ -26,6 +26,20 @@ main {
             height: 300px;
            
         }
+
+        #button-index {
+            padding: 15px;
+            .btn {
+                padding: 15px;
+            }
+        }
+        div {
+            p {
+                font-family: 'Gemunu Libre', sans-serif;
+                font-size: 30px;
+                font-weight: 300;
+            }
+        }
         
         #carousel1 {
             padding: 15px;

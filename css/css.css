@@ -76,8 +76,6 @@ main {
   main #carousel-home {
     display: flex;
     flex-direction: column; }
-    main #carousel-home img {
-      height: 300px; }
     main #carousel-home #button-index {
       padding: 15px; }
       main #carousel-home #button-index .btn {
@@ -320,6 +318,8 @@ ul li:hover ul {
     padding: 0px 150px; }
     #principalHome #principal .introduccion {
       font-size: 15px; }
+    #principalHome #carousel-home img {
+      height: 500px; }
   main .flex {
     display: flex;
     flex-direction: row; }
@@ -328,24 +328,15 @@ ul li:hover ul {
     flex-direction: row;
     justify-content: space-evenly; } }
 
+@media only screen and (min-width: 1200px) {
+  #principalHome #carousel-home img {
+    height: 700px; } }
+
 @media only screen and (min-width: 1380px) {
   #principalHome #principal .introduccion {
     font-size: 20px; }
-  #principalHome #responsive .marginImg {
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
-    align-items: center;
-    justify-content: right; }
-    #principalHome #responsive .marginImg .balanza {
-      height: 500px;
-      width: 400px; }
-  #principalHome #responsive .marginVideo {
-    display: flex;
-    flex-direction: row;
-    font-size: 22px;
-    align-items: center;
-    justify-content: center; } }
+  #principalHome #carousel-home img {
+    height: 800px; } }
 
 @media only screen and (min-width: 1620px) {
   #principalHome {

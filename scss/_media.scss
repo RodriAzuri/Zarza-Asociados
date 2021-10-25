@@ -208,6 +208,11 @@ ul li:hover ul {
                 font-size: 15px;
             }
         }
+        #carousel-home {
+            img {
+                height: 500px;
+            }
+        }
     }
 
     //Nosotros// 
@@ -228,6 +233,18 @@ ul li:hover ul {
     }
 }
 
+@media only screen and (min-width: 1200px) {
+
+    //Main// 
+    #principalHome {
+        #carousel-home {
+            img {
+                height: 700px;
+            }
+        }  
+    }
+}
+
 @media only screen and (min-width: 1380px) {
 
     //Main// 
@@ -237,26 +254,11 @@ ul li:hover ul {
                 font-size: 20px;
             }
         }
-        #responsive {
-            .marginImg {
-                display: flex;
-                flex-direction: row;
-                font-size: 20px;
-                align-items: center;
-                justify-content: right;
-                .balanza {
-                    height: 500px;
-                    width: 400px;
-                }
+        #carousel-home {
+            img {
+                height: 800px;
             }
-            .marginVideo {
-                display: flex;
-                flex-direction: row;
-                font-size: 22px;
-                align-items: center;
-                justify-content: center;
-            }
-        }    
+        }  
     }
 }
 

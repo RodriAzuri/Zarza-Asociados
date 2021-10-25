@@ -13,6 +13,11 @@
         }
     }
 
+    //Index//
+    #principalHome {
+        margin: 0px 90px;
+    }
+
 
     //Contacto//
     #fondo-contact {
@@ -162,15 +167,9 @@
         }
     }
 
-    //Main//
-    main {
-        #carousel-home {
-            img {
-                height: 700px;
-            }
-        }
+    #principalHome {
+        margin: 0px 110px;
     }
-    
 }
 
 ul li:hover ul {
@@ -179,6 +178,7 @@ ul li:hover ul {
     padding-top: 5px;
     
 }
+
 
     
 
@@ -202,15 +202,10 @@ ul li:hover ul {
 
     //Main//
     #principalHome {
-        padding: 0px 150px;
+        margin: 0px 120px;
         #principal {
             .introduccion {
                 font-size: 15px;
-            }
-        }
-        #carousel-home {
-            img {
-                height: 500px;
             }
         }
     }
@@ -233,18 +228,6 @@ ul li:hover ul {
     }
 }
 
-@media only screen and (min-width: 1200px) {
-
-    //Main// 
-    #principalHome {
-        #carousel-home {
-            img {
-                height: 700px;
-            }
-        }  
-    }
-}
-
 @media only screen and (min-width: 1380px) {
 
     //Main// 
@@ -254,21 +237,15 @@ ul li:hover ul {
                 font-size: 20px;
             }
         }
-        #carousel-home {
-            img {
-                height: 800px;
-            }
-        }  
+        margin: 0px 350px;
+        
     }
 }
 
 @media only screen and (min-width: 1620px) {
     
     //Main// 
-    #principalHome {
-        padding: 0px 300px;
-    }
-
+   
 }
 
     

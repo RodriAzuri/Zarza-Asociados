@@ -233,6 +233,8 @@ footer {
     font-size: 70px; }
   .headerImg #titulo #tituloSecundario {
     font-size: 60px; }
+  #principalHome {
+    margin: 0px 90px; }
   #fondo-contact .formContact .ko .mb-3 {
     width: 400px; } }
 
@@ -298,8 +300,8 @@ footer {
       display: flex;
       text-decoration: none;
       color: #fff; }
-  main #carousel-home img {
-    height: 700px; } }
+  #principalHome {
+    margin: 0px 110px; } }
 
 ul li:hover ul {
   display: flex;
@@ -315,11 +317,9 @@ ul li:hover ul {
     .headerImg #titulo #tituloSecundario {
       font-size: 80px; }
   #principalHome {
-    padding: 0px 150px; }
+    margin: 0px 120px; }
     #principalHome #principal .introduccion {
       font-size: 15px; }
-    #principalHome #carousel-home img {
-      height: 500px; }
   main .flex {
     display: flex;
     flex-direction: row; }
@@ -328,19 +328,11 @@ ul li:hover ul {
     flex-direction: row;
     justify-content: space-evenly; } }
 
-@media only screen and (min-width: 1200px) {
-  #principalHome #carousel-home img {
-    height: 700px; } }
-
 @media only screen and (min-width: 1380px) {
-  #principalHome #principal .introduccion {
-    font-size: 20px; }
-  #principalHome #carousel-home img {
-    height: 800px; } }
-
-@media only screen and (min-width: 1620px) {
   #principalHome {
-    padding: 0px 300px; } }
+    margin: 0px 350px; }
+    #principalHome #principal .introduccion {
+      font-size: 20px; } }
 
 h4 {
   animation-name: h4;

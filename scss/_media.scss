@@ -63,23 +63,8 @@
     //Servicios//
     main {
         .grid {
-            display: grid;
-            grid-template-rows: 150px, 150px, 100px, ;
-            grid-template-columns: 300px, 300px;
-            grid-template-areas: 
-                "familiaFondo laboralFondo"
-                "civilFondo arrendamientoFondo"
-                "accidentesTransitoFondo ambientalFondo"
-            ;
-            grid-gap: 10px;
-            text-align: center;
-            justify-content: c;
-            
-            h3 {
-                font-size: 30px;
-            }
+            margin: 0px 40px;
         }
-    
         .somosSubtitulo {
             font-family: 'Gemunu Libre', sans-serif;
             font-weight: 800;
@@ -133,6 +118,30 @@
         }
     }
 }   
+
+@media only screen and (min-width: 896px) {
+    //Servicios//
+    main {
+        .grid {
+            margin: 0px 50px;
+            display: grid;
+            grid-template-rows: 150px, 150px, 100px, ;
+            grid-template-columns: 300px, 300px;
+            grid-template-areas: 
+                "familiaFondo laboralFondo"
+                "civilFondo arrendamientoFondo"
+                "accidentesTransitoFondo ambientalFondo"
+            ;
+            grid-gap: 10px;
+            text-align: center;
+            
+            
+            h3 {
+                font-size: 30px;
+            }
+        }   
+    }
+}
 
 @media only screen and (min-width: 992px) {
 
@@ -200,7 +209,7 @@ ul li:hover ul {
         }
     }
 
-    //Main//
+    //Index//
     #principalHome {
         margin: 0px 120px;
         #principal {
@@ -209,6 +218,14 @@ ul li:hover ul {
             }
         }
     }
+
+    //Servicios//
+    main {
+        .grid {
+            margin: 0px 70px;
+        }
+    }
+    
 
     //Nosotros// 
     main {
@@ -240,11 +257,22 @@ ul li:hover ul {
         margin: 0px 350px;
         
     }
+
+    //Servicios//
+    main {
+        .grid {
+            margin: 0px 100px;
+        }
+    }
 }
 
-@media only screen and (min-width: 1620px) {
-    
-    //Main// 
+@media only screen and (min-width: 1520px) {
+   //Servicios//
+   main {
+    .grid {
+        margin: 0px 120px;
+    }
+}
    
 }
 

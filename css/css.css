@@ -93,6 +93,7 @@ main {
     font-size: 30px;
     text-align: center; }
   main .grid {
+    margin: 0px 20px;
     display: grid;
     grid-template-rows: none;
     grid-template-columns: none;
@@ -251,15 +252,7 @@ footer {
     #principalHome #principal .introduccion {
       padding: 10px; }
   main .grid {
-    display: grid;
-    grid-template-rows: 150px, 150px, 100px;
-    grid-template-columns: 300px, 300px;
-    grid-template-areas: "familiaFondo laboralFondo" "civilFondo arrendamientoFondo" "accidentesTransitoFondo ambientalFondo";
-    grid-gap: 10px;
-    text-align: center;
-    justify-content: c; }
-    main .grid h3 {
-      font-size: 30px; }
+    margin: 0px 40px; }
   main .somosSubtitulo {
     font-family: 'Gemunu Libre', sans-serif;
     font-weight: 800;
@@ -285,6 +278,18 @@ footer {
     font-weight: 200; }
   footer h4 {
     font-size: 40px; } }
+
+@media only screen and (min-width: 896px) {
+  main .grid {
+    margin: 0px 50px;
+    display: grid;
+    grid-template-rows: 150px, 150px, 100px;
+    grid-template-columns: 300px, 300px;
+    grid-template-areas: "familiaFondo laboralFondo" "civilFondo arrendamientoFondo" "accidentesTransitoFondo ambientalFondo";
+    grid-gap: 10px;
+    text-align: center; }
+    main .grid h3 {
+      font-size: 30px; } }
 
 @media only screen and (min-width: 992px) {
   .headerImg nav div .navbar-brand {
@@ -320,6 +325,8 @@ ul li:hover ul {
     margin: 0px 120px; }
     #principalHome #principal .introduccion {
       font-size: 15px; }
+  main .grid {
+    margin: 0px 70px; }
   main .flex {
     display: flex;
     flex-direction: row; }
@@ -332,7 +339,13 @@ ul li:hover ul {
   #principalHome {
     margin: 0px 350px; }
     #principalHome #principal .introduccion {
-      font-size: 20px; } }
+      font-size: 20px; }
+  main .grid {
+    margin: 0px 100px; } }
+
+@media only screen and (min-width: 1520px) {
+  main .grid {
+    margin: 0px 120px; } }
 
 h4 {
   animation-name: h4;
